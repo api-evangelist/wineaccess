@@ -1,8 +1,24 @@
 aid: wineaccess
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wineaccess.png
 name: Wineaccess
-description: 'Wineaccess is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Wine Access is an online wine retailer that curates limited-production and hard-to-find
+  wines from around the world, sourced and vetted by its team of sommeliers and wine experts. Beyond
+  direct e-commerce, the company operates a portfolio of subscription wine clubs (Discovery, Connoisseurs,
+  Champagne, Collector''s, Decanter, and Sunset clubs), a wine podcast and editorial content platform at
+  discover.wineaccess.com, corporate and personal gifting, gift cards, and climate-controlled shipping.
+  Backed by Norwest Venture Partners. As of this profile, Wine Access publishes no public developer API,
+  developer portal, or API documentation; it is a consumer e-commerce brand rather than an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/wineaccess/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Wine
+- E-Commerce
+- Retail
+- Beverage
+- Wine Club
+- Consumer
+- Food and Beverage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://wineaccess.com
+- type: Blog
+  url: https://discover.wineaccess.com
+- type: Support
+  url: https://www.wineaccess.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.wineaccess.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.wineaccess.com/terms/
+- type: DomainSecurity
+  url: security/wineaccess-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
